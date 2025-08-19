@@ -1,0 +1,27 @@
+.box{
+    display: grid;
+    width: 600px;
+    height: 800px;
+    border: 1px solid red;
+}
+.box1{
+    width: 200px;
+    height: 150px;
+    border: 1px solid rgb(133, 140, 29);
+}
+.box2{
+    width: 200px;
+    height: 150px;
+    border: 1px solid rgb(97, 206, 53);
+}
+.box3{
+    width: 200px;
+    height: 150px;
+    border: 1px solid rgb(62, 29, 140);
+}
+
+.box4{
+    width: 200px;
+    height: 150px;
+    border: 1px solid rgb(205, 147, 31);
+}
