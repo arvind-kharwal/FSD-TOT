@@ -4,29 +4,56 @@
     height: 800px;
     width: 800px;
     background-color: aliceblue;
+    /*flex-direction: row-reverse;
+    flex-direction: column;*/
+    flex-wrap: wrap;
 }
 .box1{
     width: 200px;
     height: 200px;
     border: 1px dotted red;
-    background-color: beige;
+    background-color: aqua;
 
 }
 .box2{
     width: 200px;
     height: 200px;
     border: 1px dotted red;
-    background-color: beige;
+    background-color: bisque;
 }
 .box3{
     width: 200px;
     height: 200px;
     border: 1px dotted red;
-    background-color: beige;
+    background-color: blueviolet;
 }
 .box4{
     width: 200px;
     height: 200px;
     border: 1px dotted red;
-    background-color: beige;
+    background-color: rgb(148, 148, 39);
+}
+.box5{
+    width: 200px;
+    height: 200px;
+    border: 1px dotted red;
+    background-color: rgb(125, 125, 21);
+}
+.box6{
+    width: 200px;
+    height: 200px;
+    border: 1px dotted red;
+    background-color: rgb(34, 138, 117);
+}
+.box7{
+    width: 200px;
+    height: 200px;
+    border: 1px dotted red;
+    background-color: rgb(46, 57, 174);
+}
+.box8{
+    width: 200px;
+    height: 200px;
+    border: 1px dotted red;
+    background-color: rgb(121, 121, 22);
 }
