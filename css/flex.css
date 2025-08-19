@@ -7,21 +7,25 @@
     /*flex-direction: row-reverse;
     flex-direction: column;
     flex-wrap: wrap;*/
-    gap:10px;
-    justify-content: flex-start;
+    gap:13px;
+    /*justify-content: flex-start;*/
+    justify-content: space-evenly;
+    align-content: baseline;
+    align-items: end;
 }
 .box1{
     width: 200px;
     height: 200px;
     border: 1px dotted red;
     background-color: aqua;
-
 }
+
 .box2{
     width: 200px;
     height: 200px;
     border: 1px dotted red;
     background-color: bisque;
+    order:1;
 }
 .box3{
     width: 200px;
