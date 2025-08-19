@@ -6,14 +6,27 @@
     background-color: aliceblue;
 }
 .box1{
+    width: 200px;
+    height: 200px;
+    border: 1px dotted red;
+    background-color: beige;
 
 }
-.box1{
-    
+.box2{
+    width: 200px;
+    height: 200px;
+    border: 1px dotted red;
+    background-color: beige;
 }
-.box1{
-    
+.box3{
+    width: 200px;
+    height: 200px;
+    border: 1px dotted red;
+    background-color: beige;
 }
-.box1{
-    
+.box4{
+    width: 200px;
+    height: 200px;
+    border: 1px dotted red;
+    background-color: beige;
 }
