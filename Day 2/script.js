@@ -1,2 +1,23 @@
+var a = 10;
 var a = 12;
 console.log("This is: "+a);
+const b = 13;
+//const b = 20;
+console.log("This is: "+b);
+let c = 20;
+//let c = 30;
+console.log("This is: "+c);
+console.log("New Line\n");
+var a = 2;
+if(a<5){
+    var a = 45;
+    console.log("a"+a);
+}
+console.log("a\n"+a);
+console.log("Line Break\n");
+var a = 2;
+if(a<5){
+    let a = 45;
+    console.log("\na"+a);
+}
+console.log("a"+a);
