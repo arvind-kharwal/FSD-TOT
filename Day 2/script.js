@@ -58,4 +58,9 @@ const data = function(){
     console.log("Hi Arvind");
 }
 data();
+console.log("==============\n");
 
+const data1=()=>{
+    return " Hi New";
+}
+console.log(data1());
