@@ -21,3 +21,15 @@ if(a<5){
     console.log("\na"+a);
 }
 console.log("a"+a);
+
+console.log("== Line Break\n");
+let n = 12;
+let m = "12";
+if(n==m)
+{
+    console.log("Hello");
+}
+else
+{
+    console.log("World");
+}
