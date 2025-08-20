@@ -69,3 +69,10 @@ console.log("==============\n");
 
 const add=(a,b)=>a+b;
 console.log(add(22,34));
+
+console.log("==============\n");
+
+function greet(msg="Hello"){
+    console.log("HI"+msg);
+}
+greet();
