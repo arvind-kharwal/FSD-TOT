@@ -64,3 +64,8 @@ const data1=()=>{
     return " Hi New";
 }
 console.log(data1());
+
+console.log("==============\n");
+
+const add=(a,b)=>a+b;
+console.log(add(22,34));
