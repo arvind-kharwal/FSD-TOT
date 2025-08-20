@@ -73,6 +73,8 @@ console.log(add(22,34));
 console.log("==============\n");
 
 function greet(msg="Hello"){
-    console.log("HI"+msg);
+    return "HI"+msg;
 }
 greet();
+
+console.log(greet("Welcome"));
