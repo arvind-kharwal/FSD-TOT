@@ -1,6 +1,6 @@
-console.log("Logic JS")
+console.log("Logic JS");
 function sum(a,b)
 {
     return a+b;
 }
-MediaSourceHandle.exports = sum();
+module.exports=sum;
