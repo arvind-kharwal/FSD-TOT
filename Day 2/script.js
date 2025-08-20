@@ -51,3 +51,11 @@ function sum(a,b){
     let s = a+b;
     return(s);
 }
+
+console.log("Function 3 Line Break\n");
+
+const data = function(){
+    console.log("Hi Arvind");
+}
+data();
+
