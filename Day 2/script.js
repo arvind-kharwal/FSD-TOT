@@ -75,6 +75,29 @@ console.log("==============\n");
 function greet(msg="Hello"){
     return "HI"+msg;
 }
-greet();
-
+//greet();
 console.log(greet("Welcome"));
+console.log("\n==============\n");
+function selectlanguage(lang){
+    let data;
+    if(lang=="java"){
+        function javacompiler(){
+            console.log("java Compiler");
+        }
+        data = javacompiler();
+    }
+    else if(lang=="C")
+    {
+        function Ccompiler(){
+            console.log("C Compiler");
+        }
+        data = Ccompiler();
+    }
+    else
+    {
+        console.log("No Compiler Found");
+    }
+}
+selectlanguage("java");
+selectlanguage("C");
+selectlanguage();
