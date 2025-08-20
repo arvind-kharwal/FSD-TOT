@@ -101,3 +101,5 @@ function selectlanguage(lang){
 selectlanguage("java");
 selectlanguage("C");
 selectlanguage();
+
+console.log("\n Next Topic \n");
