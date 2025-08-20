@@ -33,3 +33,21 @@ else
 {
     console.log("World");
 }
+
+console.log("Function Line Break\n");
+
+function sum(){
+    return(10);
+}
+let v = sum();
+console.log(v);
+
+console.log("Function Line Break\n");
+
+let v1 = sum(20,10);
+console.log(v1);
+
+function sum(a,b){
+    let s = a+b;
+    return(s);
+}
