@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Four Image Boxes</title>
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      width: 600px;
+      height: 600px;
+      margin: 20px auto;
+      border: 2px solid #333;
+    }
+
+    .box {
+      flex: 1 0 50%; /* Two boxes per row */
+      box-sizing: border-box;
+      padding: 10px;
+      border: 1px solid #aaa;
+    }
+
+    .box img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="box">
+      <img src="img/cat1.png" alt="Image 1">
+      <caption align="center">Cat1</caption>
+    </div>
+    <div class="box"><img src="img/cat1.png" alt="Image 2"></div>
+    <div class="box"><img src="img/cat1.png" alt="Image 3"></div>
+    <div class="box"><img src="img/cat1.png" alt="Image 4"></div>
+  </div>
+
+</body>
+</html>
