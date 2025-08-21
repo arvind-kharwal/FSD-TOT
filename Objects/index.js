@@ -6,3 +6,4 @@ const employee={
     address:" Meerut"
 }
 console.log(employee);
+console.log(employee.ename);
