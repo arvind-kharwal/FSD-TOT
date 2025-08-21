@@ -2,7 +2,7 @@
 
 const employee={
     ename: "Arvind",
-    eage:"30",
+    eage:40,
     address:" Meerut",
     plang:[{
         lang1:"java",
