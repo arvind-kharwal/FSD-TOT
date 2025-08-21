@@ -24,3 +24,4 @@ const employee={
 //console.log(employee.plang);
 //console.log(employee.plang[0]);
 console.log(employee.plang[0].lang1);
+console.log(employee.plang[1].db1);
