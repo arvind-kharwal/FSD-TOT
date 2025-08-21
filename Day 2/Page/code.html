@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABESEC Grocry Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <!-- Header Section -->
+    <header class="bg-[#131921] text-white">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <img src="logo.png" alt="logo" class="h-10">
+                </div>
+
+                <!-- Search Bar -->
+                <div class="flex-1 mx-6">
+                    <div class="flex search-bar">
+                        <select class="bg-gray-100 text-black px-2 rounded-l-md border-r border-gray-300">
+                            <option>All</option>
+                            <option>Electronics</option>
+                            <option>Home</option>
+                            <option>Books</option>
+                        </select>
+                        <input type="text" class="flex-1 px-4 py-2 text-black" placeholder="Search Amazon">
+                        <button class="bg-[#F3A847] hover:bg-[#FCD34D] px-4 py-2 rounded-r-md">
+                            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/ba30fe3c-48b0-4f5d-a12f-daf1b9f56dc9.png" alt="Search icon" class="h-5 w-5">
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Right Navigation -->
+                <div class="flex items-center space-x-6">
+                    <div class="text-sm">
+                        <div>Hello, Sign in</div>
+                        <div class="font-bold">Account & Lists</div>
+                    </div>
+                    <div class="text-sm">
+                        <div>Returns</div>
+                        <div class="font-bold">& Orders</div>
+                    </div>
+                    <div class="flex items-center">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/07ac6e29-8fda-490b-bf2b-a7083768021c.png" alt="Shopping cart icon" class="h-10 w-10">
+                        <span class="font-bold ml-1">Cart</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Product Grid Section -->
+    <div class="container mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Product 1 -->
+            <div class="product-card bg-white p-4 rounded shadow hover:shadow-md transition-shadow">
+                <img src="1.png" alt="Modern electronics including smartphones, laptops and headphones on a white background" class="w-full h-auto">
+                <h3 class="product-title text-lg font-semibold mt-3">Electronics</h3>
+                <p class="text-[#0066C0] text-sm mt-1">See more</p>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card bg-white p-4 rounded shadow hover:shadow-md transition-shadow">
+                <img src="2.png" alt="Trendy clothing items displayed on mannequins with modern fashion accessories" class="w-full h-auto">
+                <h3 class="product-title text-lg font-semibold mt-3">Fashion</h3>
+                <p class="text-[#0066C0] text-sm mt-1">Shop now</p>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card bg-white p-4 rounded shadow hover:shadow-md transition-shadow">
+                <img src="3.png" alt="Stylish home decor items including furniture, lighting and kitchenware" class="w-full h-auto">
+                <h3 class="product-title text-lg font-semibold mt-3">Home & Kitchen</h3>
+                <p class="text-[#0066C0] text-sm mt-1">Discover more</p>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card bg-white p-4 rounded shadow hover:shadow-md transition-shadow">
+                <img src="4.png" alt="Stack of popular books with colorful covers on a wooden table" class="w-full h-auto">
+                <h3 class="product-title text-lg font-semibold mt-3">Books</h3>
+                <p class="text-[#0066C0] text-sm mt-1">Browse</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-[#131921] text-white mt-10">
+        <div class="container mx-auto px-4 py-8">
+            <div class="text-center">
+                <p>© 2024 ABESEC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
+
